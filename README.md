@@ -52,3 +52,37 @@ AI-Embedding-DB/
 ```bash
 pip install -r requirements.txt
 
+---
+
+🚀 실행 방법
+python embedding/embed_to_qdrant.py
+
+---
+
+🔒 Qdrant Cloud 설정 방법
+https://cloud.qdrant.io 접속
+
+무료 계정으로 클러스터 생성 (Starter 요금제 무료)
+
+Cluster URL + API Key 발급
+
+embed_to_qdrant.py의 QdrantClient 설정에 적용
+
+---
+
+🧪 예시
+dku_일반, dku_교양, dku_장학, ... 등의 컬렉션이 Qdrant에 생성되어 저장됩니다.
+
+각 컬렉션에 최대 수천 개의 질문 벡터가 저장되어 검색 가능한 상태가 됩니다.
+
+---
+
+📬 Contact
+Maintainer: 서민경
+
+School: 단국대학교
+
+프로젝트 관련 문의는 Issues 또는 이메일로 주세요.
+
+
+
