@@ -32,8 +32,6 @@
 ```
 AI-Embedding-DB/
 ├── embedding/
-│   ├── DKU_FAQ.json                      # 원본 FAQ 크롤링 데이터
-│   ├── DKU_QNA.json                      # 원본 QNA 크롤링 데이터
 │   ├── data_with_predicted_final_tagged.json  # 분류 모델 결과 포함 데이터
 │   └── embed_to_qdrant.py          # 메인 임베딩 + 저장 스크립트
 ├── README.md
