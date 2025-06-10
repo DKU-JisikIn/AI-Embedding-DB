@@ -52,7 +52,7 @@ AI-Embedding-DB/
 ```bash
 pip install -r requirements.txt
 
----
+```
 
 🚀 실행 방법
 python embedding/embed_to_qdrant.py
