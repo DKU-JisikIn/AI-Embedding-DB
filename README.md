@@ -87,7 +87,5 @@ Maintainer: 서민경
 
 School: 단국대학교
 
-프로젝트 관련 문의는 Issues 또는 이메일로 주세요.
-
 
 
